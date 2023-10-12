@@ -25,7 +25,7 @@ export default function X() {
     useEffect(() => {
         SORT_OPTIONS[sortType].func(productsShow);
         setProductsShow(productsShow);
-    }, [sortType, productsShow.length]);
+    }, [sortType, productsShow.length, productsShow]);
 
     useEffect(() => {
         window.addEventListener('scroll', () => {
@@ -44,6 +44,7 @@ export default function X() {
     };
 
     useEffect(() => {
+        if (!loading) return;
         setProducts([]);
         if (loading) return;
         setLoading(true);
@@ -52,7 +53,7 @@ export default function X() {
             setLoading(false);
             setProducts(v);
         });
-    }, [query]);
+    }, [query, loading]);
 
     useEffect(() => {
         searchTop().then((v) => {
@@ -62,13 +63,13 @@ export default function X() {
 
     useEffect(() => {
         setProductsShow(products)
-    }, [products.length]);
+    }, [products.length, products]);
 
     return <>
         <div className={'fixed w-full bg-amber-100 z-50 duration-300 ' + (showTopBtn ? 'drop-shadow-lg':'')}>
             <Link href='/' className='flex w-fit m-auto my-4'>
                 <div className='my-auto sm:w-12 w-8 mr-6 mb-2'>
-                    <Image src='/img/icon.png' width={250} height={250} />
+                    <Image src='/img/icon.png' alt='icon' width={250} height={250} />
                 </div>
                 <div className='my-auto sm:text-4xl text-2xl font-bold'>
                     eMarket
@@ -98,7 +99,7 @@ export default function X() {
         { products.length > 0 ?
             <div className='max-w-xl m-auto px-4 relative'>
                 <div className='text-center my-4 font-light opacity-80 sm:text-base text-sm'>
-                    {products.length} products found for "{query}" query
+                    {products.length} products found for &quot;{query}&quot; query
                 </div>
                 <div className='w-fit m-auto my-8 flex flex-wrap'>
                     <SortOptions set={setSortType} get={sortType} />
