@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "7aba65c2ce5cd53f",
+    "type": "split",
+    "children": [
+      {
+        "id": "37a8873d3a914801",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68159af60eba4744",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/API/DB.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "296ddf8bda376ab0",
+    "type": "split",
+    "children": [
+      {
+        "id": "ba4ec4a2973642ac",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2885c8ea8db30cf3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "75276be350de4039",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e6c8b39b0c063f8d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "458d7c9d123b7da9",
+    "type": "split",
+    "children": [
+      {
+        "id": "72158d8816df756a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f570fbbda7c72cdb",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/API/DB.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4f3d9eb43661b583",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "94fe0820891b1c02",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/API/DB.md"
+              }
+            }
+          },
+          {
+            "id": "541a5f6e058115b4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/API/DB.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "68159af60eba4744",
+  "lastOpenFiles": [
+    "site/public/img/maximum_md.png",
+    "site/public/img/Без названия (2).png",
+    "site/public/img/accent_md.png",
+    "site/public/img/Без названия (1).png",
+    "api/websites/__pycache__/accent_md.cpython-311.pyc",
+    "api/websites/accent_md.py",
+    "api/websites/__pycache__/maximum_md.cpython-311.pyc",
+    "api/websites/maximum_md.py",
+    "site/modules/filtering.js",
+    "site/modules/sorting.js",
+    "site/public/img/enter_md.png",
+    "site/public/img/Без названия.png",
+    "site/public/img/darwin_md.png",
+    "site/public/img/logo_darwin.png",
+    "site/modules/search_top_action.js",
+    "site/modules/top_search_action.js",
+    "site/pages/api/search_top.js",
+    "docs/API/Local API.md",
+    "docs/API/Parse and Search.md",
+    "docs/API/Users.md",
+    "docs/API/DB.md",
+    "site/modules/product_card.js",
+    "site/public/img/icon.png",
+    "site/public/img/trolley.png",
+    "site/node_modules/typescript/SECURITY.md",
+    "site/node_modules/@typescript-eslint/scope-manager/README.md",
+    "site/node_modules/tailwindcss/README.md",
+    "site/node_modules/tailwindcss/CHANGELOG.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/CHANGELOG.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/scope.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/tabindex-no-positive.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/role-supports-aria-props.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/role-has-required-aria-props.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/prefer-tag-over-role.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-static-element-interactions.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-redundant-roles.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-onchange.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-noninteractive-tabindex.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-noninteractive-element-to-interactive-role.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-noninteractive-element-interactions.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-interactive-element-to-noninteractive-role.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-distracting-elements.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-autofocus.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-aria-hidden-on-focusable.md",
+    "site/node_modules/eslint-plugin-jsx-a11y/docs/rules/no-access-key.md",
+    "site/public/vercel.svg",
+    "docs/Architecture.canvas",
+    "Untitled.canvas"
+  ]
+}

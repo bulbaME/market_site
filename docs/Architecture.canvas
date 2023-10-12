@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"d7874558f1db9ae4","type":"file","file":"docs/API/Users.md","x":-480,"y":-640,"width":400,"height":400,"color":"5"},
+		{"id":"0023747657510890","type":"file","file":"docs/API/Parse and Search.md","x":-480,"y":160,"width":400,"height":400,"color":"5"},
+		{"id":"b565a9edc345db25","type":"file","file":"docs/API/Local API.md","x":-1280,"y":-320,"width":400,"height":560,"color":"1"},
+		{"id":"8cad41234ff652b5","type":"file","file":"docs/API/DB.md","x":240,"y":-240,"width":400,"height":400,"color":"4"},
+		{"id":"a9e565f6de24fe11","type":"text","text":"# Next.JS Backend","x":-1880,"y":-100,"width":200,"height":120},
+		{"id":"f4c9ca2509546724","type":"file","file":"docs/Frontend.md","x":-2400,"y":240,"width":400,"height":400,"color":"6"}
+	],
+	"edges":[
+		{"id":"eea65e9a91dd78c8","fromNode":"b565a9edc345db25","fromSide":"right","toNode":"d7874558f1db9ae4","toSide":"left"},
+		{"id":"e0648f9623834e63","fromNode":"b565a9edc345db25","fromSide":"right","toNode":"0023747657510890","toSide":"left"},
+		{"id":"f895b0504ac41f8a","fromNode":"0023747657510890","fromSide":"right","toNode":"8cad41234ff652b5","toSide":"bottom"},
+		{"id":"a22bdb963b1f2f67","fromNode":"d7874558f1db9ae4","fromSide":"right","toNode":"8cad41234ff652b5","toSide":"top"},
+		{"id":"fda6ac0c770f28fe","fromNode":"8cad41234ff652b5","fromSide":"top","toNode":"d7874558f1db9ae4","toSide":"right"},
+		{"id":"08ba77837c5ee297","fromNode":"8cad41234ff652b5","fromSide":"bottom","toNode":"0023747657510890","toSide":"right"},
+		{"id":"73cb281f5c002248","fromNode":"a9e565f6de24fe11","fromSide":"right","toNode":"b565a9edc345db25","toSide":"left"},
+		{"id":"dd686c03264dcb36","fromNode":"a9e565f6de24fe11","fromSide":"right","toNode":"b565a9edc345db25","toSide":"left"},
+		{"id":"4fc2f9aa6d983b2f","fromNode":"f4c9ca2509546724","fromSide":"top","toNode":"a9e565f6de24fe11","toSide":"left"}
+	]
+}
