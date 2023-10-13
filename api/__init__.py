@@ -59,18 +59,17 @@ class Server(BaseHTTPRequestHandler):
 
         res = ''
         
-        match url.path:
-            case '/query':
-                t = url.query.split('=')
-                q = None
-                if len(t) == 2 and t[0] == 'q':
-                    q = t[1]
+        if url.path == '/query':
+            t = url.query.split('=')
+            q = None
+            if len(t) == 2 and t[0] == 'q':
+                q = t[1]
 
-                l = query(q)
-                l = [p.to_dict() for p in l]
-                res = json.dumps(l)
-            case '/search_top':
-                res = json.dumps(top_searches())
+            l = query(q)
+            l = [p.to_dict() for p in l]
+            res = json.dumps(l)
+        elif url.path == 'search_top':
+            res = json.dumps(top_searches())
 
         self.wfile.write(bytes(res, 'utf-8'))
 
