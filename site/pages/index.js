@@ -44,7 +44,6 @@ export default function X() {
     };
 
     useEffect(() => {
-        if (!loading) return;
         setProducts([]);
         if (loading) return;
         setLoading(true);
