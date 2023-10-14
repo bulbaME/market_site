@@ -52,7 +52,7 @@ export default function X() {
             setLoading(false);
             setProducts(v);
         });
-    }, [query, loading]);
+    }, [query]);
 
     useEffect(() => {
         searchTop().then((v) => {
