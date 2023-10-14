@@ -29,7 +29,7 @@ def init_driver() -> webdriver.Firefox:
 DRIVER_COUNT = 0
 
 def parse_price(price: str) -> float:
-    price = price.replace(' ', '').replace(',', '.')
+    price = price.replace(' ', '').replace('.', '').replace(',', '.')
     return float(price)
 
 class _Drivers:
