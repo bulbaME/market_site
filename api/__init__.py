@@ -68,7 +68,7 @@ class Server(BaseHTTPRequestHandler):
             l = query(q)
             l = [p.to_dict() for p in l]
             res = json.dumps(l)
-        elif url.path == 'search_top':
+        elif url.path == '/search_top':
             res = json.dumps(top_searches())
 
         self.wfile.write(bytes(res, 'utf-8'))
